@@ -1,0 +1,41 @@
+1. Summary SVMs
+ Simple linear sepratable data:
+    Perceptron -> Maxima margin -> Quadratic problem -> hard margin solver
+    -> Add C to accept some error / noise (soft margin)
+ 
+ Multi-classification: one vs one, ovr
+    Kernel tricks: linear, rbf, poly
+    How kernel effect on svm
+ 
+2. Implement 
+    data:
+    feature extractor: bow, how dictionary?
+        n_features
+        n_examples
+    test images:
+        n_images
+        size
+        gray scale
+
+3. Results
+    table
+    method  kernel  c   gamma   degree  time_fit    score on train  score on test
+    
+4. Evaluate
+data:
+    inbalance ? -> effect on result
+
+ovo vs ovr: 
+    execution time
+    accuracy
+
+C effect on linear (C bigger -> like hard margin)
+
+gamma effect on rbf
+    accuray, lable after redict
+    
+degree effect on poly
+    accuray, lable after redict
+    
+5. How can i improve accuracy
+

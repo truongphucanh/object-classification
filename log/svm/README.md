@@ -1,0 +1,1 @@
+file name structure: {method}_{kernel}_{c}_{gamma}_{degree}.log
