@@ -1,0 +1,16 @@
+# Calculate histogram of visual words (as a feature vector) for an image
+def cal_histogram(image, vocabulary):
+    # 1. Create an empty histogram
+    n_words = len(vocabulary)
+    histogram = np.zero(n_words) # zeros array with length = n_words
+    
+    # 2. Calculate all descriptors in this image
+    key_points = get_key_points(image)
+    descriptors = get_descriptors(key_points)
+    
+    # 3. For each descriptor, find out which word it is (in vocabulary).
+    for descriptor in descriptors:
+        word_index = which_word(descriptor, vocabulary)
+        histogram[word_index]++ # increase histogram bin
+    
+    return histogram

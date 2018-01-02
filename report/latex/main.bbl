@@ -1,0 +1,129 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{ARTICLE:0}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Liu}{L.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gleicher}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jin}{J.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agarwala}{A.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LFGMJH+1}
+  \strng{fullhash}{LFGMJHAA1}
+  \field{title}{Content-preserving warps for 3D video stabilization}
+  \field{journaltitle}{ACM Transactions on Graphics}
+  \field{year}{2009}
+\endentry
+
+\entry{BOOK:0}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Demant}{D.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Streicher-Abel}{S.-A.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waszkewitz}{W.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{DCSABWP1}
+  \strng{fullhash}{DCSABWP1}
+  \field{title}{Industrial image processing: visual quality control in
+  manufacturing}
+  \field{year}{2013}
+\endentry
+
+\entry{BOOK:1}{book}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Jung}{J.}%
+     {Ho~Gi}{H.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Dong~Suk}{D.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoon}{Y.}%
+     {Pal~Joo}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Jaihie}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin / Heidelberg}%
+  }
+  \strng{namehash}{JHGKDSYPJ+1}
+  \strng{fullhash}{JHGKDSYPJKJ1}
+  \field{title}{Structural, Syntactic and Statistical Pattern Recognition}
+  \field{year}{2006}
+\endentry
+
+\entry{WIKI:0}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{title}{Support vector machine}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Support_vector_machine
+  \endverb
+  \field{year}{2004}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

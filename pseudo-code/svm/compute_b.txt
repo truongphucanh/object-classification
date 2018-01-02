@@ -1,0 +1,3 @@
+def compute_b(w, X, y):
+	return np.sum([y[i] - np.dot(w, X[i])
+		for i in range(len(X))])/len(X)

@@ -1,0 +1,20 @@
+# Find the label of an unknown sample x
+# x: unknown sample
+# X: training data
+# Y: labels of training data
+# k: parameter k
+def knn(x, X, Y, k):
+	n_samples = length(X)	
+	
+	# 1. Calculate the distance between x and all training samples in X
+	for i in range(0, n_samples):
+		distances[i] = Euclidean_distance(x, X[i])
+
+	# 2. Get index of k-th minimum distances
+	k_indeces = get_minimum_indeces(k, distances)
+	
+	# 3. Get voted labels from k_indeces
+	voted_labels = labels[k_indeces]
+
+	# 4. return the most frequent among voted_labels as the label of x
+	return most_frequent(voted_labels) 

@@ -1,0 +1,13 @@
+# Create a vocabulary from a set of images
+def create_vocabulary(images):
+	# 1. Get key points (interested points) from all images
+	key_points = get_key_points(images)
+	
+	# 2. Calculate descriptors for those key points.
+	descriptors = get_descriptors(images, key_points)
+
+	# 3. Run K-Means clustering on those descriptor
+	cluster_centers = run_kmeans_on(descriptors)
+	
+	# 4. Each cluster center is a word in vocabulary
+	return cluster_centers as vocabulary

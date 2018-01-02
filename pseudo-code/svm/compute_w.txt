@@ -1,0 +1,3 @@
+def compute_w(multipliers, X, y):
+	return np.sum(multipliers[i] * y[i] * X[i]
+		for i in range(len(y)))

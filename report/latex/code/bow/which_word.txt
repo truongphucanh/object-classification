@@ -1,0 +1,7 @@
+# Find out which word an descriptor is (in vocabulary)
+def which_word(descriptor, vocabulary):
+    n_words = len(vocabulary)
+    dist = np.zero(n_words) # zeros array with length = n_words
+    for i in range(n_words)
+        dist[i] = L1_distance(vocabulary[i], descriptor)
+    return min_index_of(dist)
