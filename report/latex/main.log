@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.28)  1 JAN 2018 00:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.28)  2 JAN 2018 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2847,41 +2847,41 @@ een already used, duplicate ignored
                    \relax 
 l.17 
       [2] (./1_header/introduction.tex
-<images/chairs/0.jpeg, id=122, 225.84375pt x 225.84375pt>
+<images/chairs/0.jpeg, id=121, 225.84375pt x 225.84375pt>
 File: images/chairs/0.jpeg Graphic file (type jpg)
 
 <use images/chairs/0.jpeg>
 Package pdftex.def Info: images/chairs/0.jpeg used on input line 8.
 (pdftex.def)             Requested size: 83.64944pt x 83.65047pt.
 
-<images/chairs/1.jpeg, id=123, 225.84375pt x 225.84375pt>
+<images/chairs/1.jpeg, id=122, 225.84375pt x 225.84375pt>
 File: images/chairs/1.jpeg Graphic file (type jpg)
 
 <use images/chairs/1.jpeg>
 Package pdftex.def Info: images/chairs/1.jpeg used on input line 11.
 (pdftex.def)             Requested size: 83.64944pt x 83.65047pt.
 
-<images/chairs/2.jpeg, id=124, 225.84375pt x 225.84375pt>
+<images/chairs/2.jpeg, id=123, 225.84375pt x 225.84375pt>
 File: images/chairs/2.jpeg Graphic file (type jpg)
 
 <use images/chairs/2.jpeg>
 Package pdftex.def Info: images/chairs/2.jpeg used on input line 14.
 (pdftex.def)             Requested size: 83.64944pt x 83.65047pt.
 
-<images/chairs/3.jpeg, id=125, 271.0125pt x 187.70125pt>
+<images/chairs/3.jpeg, id=124, 271.0125pt x 187.70125pt>
 File: images/chairs/3.jpeg Graphic file (type jpg)
 
 <use images/chairs/3.jpeg>
 Package pdftex.def Info: images/chairs/3.jpeg used on input line 18.
 (pdftex.def)             Requested size: 83.64944pt x 57.93474pt.
 
-<images/chairs/4.jpg, id=126, 1806.75pt x 1678.27pt>
+<images/chairs/4.jpg, id=125, 1806.75pt x 1678.27pt>
 File: images/chairs/4.jpg Graphic file (type jpg)
  <use images/chairs/4.jpg>
 Package pdftex.def Info: images/chairs/4.jpg used on input line 21.
 (pdftex.def)             Requested size: 83.64944pt x 77.69559pt.
 
-<images/chairs/5.jpg, id=127, 853.1875pt x 853.1875pt>
+<images/chairs/5.jpg, id=126, 853.1875pt x 853.1875pt>
 File: images/chairs/5.jpg Graphic file (type jpg)
 
 <use images/chairs/5.jpg>
@@ -2890,14 +2890,14 @@ Package pdftex.def Info: images/chairs/5.jpg used on input line 24.
 ) [1 <./images/chairs/0.jpeg> <./images/chairs/1.jpeg> <./images/chairs/2.jpeg>
  <./images/chairs/3.jpeg> <./images/chairs/4.jpg> <./images/chairs/5.jpg>] (./2
 _body/dataset.tex) (./2_body/methods.tex
-<images/flow/generic.png, id=143, 816.04875pt x 281.05pt>
+<images/flow/generic.png, id=142, 816.04875pt x 281.05pt>
 File: images/flow/generic.png Graphic file (type png)
 
 <use images/flow/generic.png>
 Package pdftex.def Info: images/flow/generic.png used on input line 7.
 (pdftex.def)             Requested size: 418.25368pt x 144.04977pt.
 
-<images/flow/bow_svm.png, id=145, 765.6103pt x 691.83469pt>
+<images/flow/bow_svm.png, id=144, 765.6103pt x 691.83469pt>
 File: images/flow/bow_svm.png Graphic file (type png)
 
 <use images/flow/bow_svm.png>
@@ -2908,7 +2908,7 @@ Package pdftex.def Info: images/flow/bow_svm.png used on input line 13.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2 <./images/flow/generic.png>] [3 <./images/flow/bow_svm.png>]
-<images/bow/example.jpg, id=165, 427.5975pt x 319.94531pt>
+<images/bow/example.jpg, id=164, 427.5975pt x 319.94531pt>
 File: images/bow/example.jpg Graphic file (type jpg)
 
 <use images/bow/example.jpg>
@@ -2936,7 +2936,7 @@ Overfull \hbox (54.67479pt too wide) in paragraph at lines 11--12
  []
 
 ) (./code/bow/which_word.txt) [5]
-<images/knn/example.png, id=222, 652.4375pt x 379.4175pt>
+<images/knn/example.png, id=221, 652.4375pt x 379.4175pt>
 File: images/knn/example.png Graphic file (type png)
 
 <use images/knn/example.png>
@@ -2957,14 +2957,14 @@ Overfull \hbox (41.53789pt too wide) in paragraph at lines 19--20
  []
 
 ) [7] [8]
-<images/svm/compare_hyperplanes.png, id=283, 701.62125pt x 534.99875pt>
+<images/svm/compare_hyperplanes.png, id=282, 701.62125pt x 534.99875pt>
 File: images/svm/compare_hyperplanes.png Graphic file (type png)
 
 <use images/svm/compare_hyperplanes.png>
 Package pdftex.def Info: images/svm/compare_hyperplanes.png used on input line 
 101.
 (pdftex.def)             Requested size: 418.25368pt x 318.93637pt.
- [9 <./images/svm/compare_hyperplanes.png>] <images/svm/margin0.png, id=293, 70
+ [9 <./images/svm/compare_hyperplanes.png>] <images/svm/margin0.png, id=292, 70
 1.62125pt x 534.99875pt>
 File: images/svm/margin0.png Graphic file (type png)
 
@@ -2972,7 +2972,7 @@ File: images/svm/margin0.png Graphic file (type png)
 Package pdftex.def Info: images/svm/margin0.png used on input line 121.
 (pdftex.def)             Requested size: 188.21288pt x 143.51279pt.
 
-<images/svm/margin1.png, id=294, 701.62125pt x 534.99875pt>
+<images/svm/margin1.png, id=293, 701.62125pt x 534.99875pt>
 File: images/svm/margin1.png Graphic file (type png)
 
 <use images/svm/margin1.png>
@@ -2984,19 +2984,31 @@ n1.png>]) (./code/svm/compute_w.txt)
 PGFPlots: reading {tables/svm/linear.csv}
 PGFPlots: reading {tables/svm/poly.csv}
 
-Overfull \hbox (20.76822pt too wide) in paragraph at lines 54--55
+Overfull \hbox (17.50514pt too wide) in paragraph at lines 54--55
  [] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13]
 PGFPlots: reading {tables/svm/poly.csv}
 
-Overfull \hbox (25.59518pt too wide) in paragraph at lines 75--76
+Overfull \hbox (22.3321pt too wide) in paragraph at lines 75--76
  [] 
  []
+
+
+LaTeX Warning: Reference `tab:linear' on page 14 undefined on input line 82.
+
+
+LaTeX Warning: Reference `tab:linear' on page 14 undefined on input line 83.
+
+
+LaTeX Warning: Reference `tab:linear' on page 14 undefined on input line 84.
+
+
+LaTeX Warning: Reference `tab:poly' on page 14 undefined on input line 85.
+
+
+LaTeX Warning: Reference `tab:rbf' on page 14 undefined on input line 85.
 
 ) (./2_body/conclusions.tex) [14] (./3_footer/appendices.tex) [15]
 
@@ -3013,6 +3025,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6E411AA91CAC7570702C537B6A57A679;854.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -3020,10 +3036,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \iftrue on line 5 was incomplete) 
 Here is how much of TeX's memory you used:
- 61000 strings out of 493029
- 1319747 string characters out of 6136233
- 1945962 words of memory out of 5000000
- 63237 multiletter control sequences out of 15000+600000
+ 61004 strings out of 493029
+ 1319789 string characters out of 6136233
+ 1945963 words of memory out of 5000000
+ 63240 multiletter control sequences out of 15000+600000
  22492 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,14n,101p,10514b,2435s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3033,15 +3049,15 @@ c/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm
 i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on main.pdf (18 pages, 2105624 bytes).
+ype1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfti1728.pfb>
+Output written on main.pdf (18 pages, 2100967 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 184 named destinations out of 1000 (max. 500000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
+ 185 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,7 +3,7 @@ We randomly split data into train (80) and test (20) subsets using \href{http://
 
 \subsection{Feature extraction}
 \paragraph*{}
-The BOV vocabulary is built up by using all images in dataset. We get about 40 - 50 key points and its descriptors in every image, then run K-Means with \textbf{k = \_} on this key points space to get the vocabulary with \_  visual words. The vocabulary is stored in \textbf{bin/vocabulary.pkl }
+The BOV vocabulary is built up by using all images in dataset. We get about 40 - 50 key points and its descriptors in every image, then run K-Means with \textbf{k = 500} on this key points space to get the vocabulary with 500 visual words. The vocabulary is stored in \textbf{bin/vocabulary.pkl }
 
 \paragraph*{}
 After having the vocabulary, we calculate the histogram of visual words for all images in both training set and test set. The result (feature vectors of training and test set) is stored in \textbf{features/X\_ train.pkl} and \textbf{features/X\_ test.pkl}
@@ -76,3 +76,11 @@ Here is some results (for more detail, you can read the log files from \textbf{l
     \caption{SVM result with rbf kernel.}
   \end{center}
 \end{table}
+
+\subsubsection*{Some theories have been proven}
+\begin{itemize}
+\item "One Vs One" accuracy is higher than "One Vs Rest" (shown in \ref{tab:linear})
+\item "One Vs Rest" accuracy is faster than "One Vs One" (shown in \ref{tab:linear})
+\item If the value of parameter C for SVM soft-margin is great enough, soft margin will behave like hard margin (shown in \ref{tab:linear} the One Vs One method, C = 0.2 or greater we have the same result (and it also is the hard-margin result)).
+\item The more complex the model is, the more time takes to train and the trained model can be cause of over-fitting (the data is more simpler than what the model represent). (In \ref{tab:poly} when \textit{degree} becomes greate or in \ref{tab:rbf} when \textit{gamma} becomes greater, it takes a lot of time to train and the trained model fits almost 100\% training data)
+\end{itemize}
