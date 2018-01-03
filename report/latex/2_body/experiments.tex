@@ -9,8 +9,32 @@ The BOV vocabulary is built up by using all images in dataset. We get about 40 -
 After having the vocabulary, we calculate the histogram of visual words for all images in both training set and test set. The result (feature vectors of training and test set) is stored in \textbf{features/X\_ train.pkl} and \textbf{features/X\_ test.pkl}
 
 \subsection{KNN test}
-We simply run KNN on test set with diffrent k (from 1 to 100) and end up with result below.
+We simply run KNN on test set with diffrent k (from 1 to 100) and end up with result below (see \textit{report/latex/tables/knn/accuracy.csv} for more detail).
+\pagebreak
+\begin{figure}[h!]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          width=\linewidth, % Scale the plot to \linewidth
+          grid=major, % Display a grid
+          grid style={dashed,gray!30}, % Set the style
+          xlabel=$K$, % Set the labels
+          ylabel=$Accuracy$,
+          y unit=\%,
+          x tick label style={rotate=90,anchor=east},
+          legend pos=south east
+        ]
+        \addlegendimage{empty legend}
+        \addplot table[x=k,y=accuracy,col sep=comma] {tables/knn/accuracy.csv}; 
+        \addlegendentry{\hspace{-.6cm}}    
+        \addlegendentry{$Acuracy(\%)$}
+      \end{axis}
+    \end{tikzpicture}
+    \caption[KNN result with different values of K]{Accuracy with different values of K on test data.}
+  \end{center}
+\end{figure}
 
+The best value of k is 64 (in range 1 - 100) with 0.144542772 accuray.
 \subsection{SVMs test}
 \paragraph*{}
 We try to train SVM model with different parameter values, different kernels and aproachs for multi-classification. All models are saved in \textbf{bin/svm-models} with format "\textbf{multi-class\_ kernel\_ c\_ degree\_ gamma}". The value of parameter is changing following the conclusion from theory we've learn in the class and our experiences in the testing process. 
